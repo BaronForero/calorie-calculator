@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8;
+    }
+
+html,
+body {
+    font-size: 10px;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    }
+
+main section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vh auto;
+    padding: 15vh 5vw;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+} 
+
+main section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    }
+
+main section form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 50%;
+    }
+
+main section form div{
+        margin: 2rem auto;
+    }
+
+main section form div input[type="radio"]{
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+    
+.aktivityHeadline{
+        font-size: 2rem;
+    }
+
+    main section label {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    }
+    
+input[type="number"],
+    select {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    }
+    
+#aktivität{
+    width: 70%;
+    margin-bottom: 4vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+th,
+    td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    }
+    
+
+th {
+    background-color: #47ebed;
+    }
+
+button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 3vh;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #90d7a2;
+    color: #fff;
+    cursor: pointer;
+    }
+    
+button:hover {
+    background-color: #fdbb2d;
+    }
