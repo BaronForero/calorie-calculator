@@ -6,10 +6,8 @@ const berechnen = () => {
     const radioButtonWeiblich = document.getElementById('radioButtonWeiblich');
     const radioButtonMale = document.getElementById('radioButtonMale');
     const aktivität = document.getElementById('aktivität').value;
-    //GESAMT - Umsatz
     const GrundUmsatzKcal = document.getElementById('GrundUmsatzKcal');
     const GrundUmsatzKj = document.getElementById('GrundUmsatzKj');
-    //GESAMT - Umsatz
     const GesamtUmsatzKcal = document.getElementById('GesamtUmsatzKcal')
     const GesamtUmsatzKj = document.getElementById('GesamtUmsatzKj');
     let zusammenRechnen;
@@ -21,22 +19,15 @@ const berechnen = () => {
 
 
     if (radioButtonMale.checked) {
-        // console.log('berechnung Grundumsatz');
         GrundUmsatzKcal.innerHTML = maleKalorien.toFixed(0);
         GrundUmsatzKj.innerHTML = maleKalorien * 4.1868.toFixed(0);
-
         GesamtUmsatzKcal.innerHTML = zusammenRechnen.toFixed(0)
-        GesamtUmsatzKj.innerHTML = maleKalorien * 4.1868.toFixed(0)
-
-
-
+        GesamtUmsatzKj.innerHTML = (zusammenRechnen * 4.1868).toFixed(0)
     } else if (radioButtonWeiblich.checked) {
         GrundUmsatzKcal.innerHTML = femKalorien.toFixed(0);
-        GrundUmsatzKj.innerHTML = zusammenRechnen;
         GrundUmsatzKj.innerHTML = femKalorien * 4.1868.toFixed(0);
-
         GesamtUmsatzKcal.innerHTML = zusammenRechnen.toFixed(0)
-        GesamtUmsatzKj.innerHTML = femKalorien * 4.1868.toFixed(0)
+        GesamtUmsatzKj.innerHTML = (zusammenRechnen * 4.1868).toFixed(0)
     }
 }
 
