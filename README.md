@@ -20,6 +20,4 @@ If you find any issues with the application, feel free to submit an issue or pul
 Credits:
 This application was built by myself using
 
-<img src="https://img.icons8.com/color/96/000000/html-5.png"/>
-<img src="https://img.icons8.com/color/96/000000/css3.png"/>
-<img src="https://img.icons8.com/color/96/000000/javascript.png"/>
+<img src="https://img.icons8.com/color/96/000000/html-5.png"/><img src="https://img.icons8.com/color/96/000000/css3.png"/><img src="https://img.icons8.com/color/96/000000/javascript.png"/>
